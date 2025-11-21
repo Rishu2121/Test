@@ -1,0 +1,42 @@
+{
+  "name": "job-importer-frontend",
+  "version": "1.0.0",
+  "description": "Frontend dashboard for AI/Job Importer System",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "recharts": "^2.8.0",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.294.0",
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "@types/node": "^20.9.4",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "14.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
